@@ -1,13 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+// nuxt.config.ts
 export default defineNuxtConfig({
   compatibilityDate: '2026-10-29',
   devtools: { enabled: true },
   modules: ['@nuxtjs/tailwindcss'],
-  // This tells the compiler to look inside the app folder for all assets
-  srcDir: 'app/',
-  future: {
-    compatibilityVersion: 4,
-  },
   app: {
     head: {
       link: [
