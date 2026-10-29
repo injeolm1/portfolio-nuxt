@@ -35,3 +35,4 @@ import { ref } from 'vue'
 import { Home as HomeIcon, User as UserIcon, Code as CodeIcon, Award as AwardIcon, Mail as MailIcon, Menu as MenuIcon, X as XIcon } from 'lucide-vue-next'
 const isMenuOpen = ref(false)
 </script>
+
