@@ -8,10 +8,10 @@
       <div class="flip-container w-[180px] h-[180px] md:w-[250px] md:h-[250px] rounded-full border-4 border-white overflow-hidden bg-white/20 backdrop-blur-md">
         <div class="flip-inner w-full h-full relative transition-transform duration-500">
           <div class="flip-face absolute w-full h-full backface-hidden">
-            <img src="/images/bgs/Pinalba.png" alt="Profile Photo" class="w-full h-full object-cover">
+            <img src="/images/bgs/Pinalba.png" alt="Profile"class="w-full h-full object-cover">
           </div>
           <div class="flip-face flip-back absolute w-full h-full backface-hidden rotate-y-180">
-            <img src="/images/designs/designpic.png" alt="Flower Photo" class="w-full h-full object-cover">
+            <img src="/images/designs/designpic.png" alt="Flower" class="w-full h-full object-cover">
           </div>
         </div>
       </div>
