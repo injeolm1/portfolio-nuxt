@@ -5,8 +5,15 @@
     </h1>
 
     <div class="flex flex-col items-center gap-4 mb-6">
-      <div class="w-[180px] h-[180px] md:w-[250px] md:h-[250px] rounded-full border-4 border-white overflow-hidden bg-white/20 backdrop-blur-md">
-        <img src="/images/bgs/Pinalba.png" alt="Profile Photo" class="w-full h-full object-cover">
+      <div class="flip-container w-[180px] h-[180px] md:w-[250px] md:h-[250px] rounded-full border-4 border-white overflow-hidden bg-white/20 backdrop-blur-md">
+        <div class="flip-inner w-full h-full relative transition-transform duration-500">
+          <div class="flip-face absolute w-full h-full backface-hidden">
+            <img src="/images/bgs/Pinalba.png" alt="Profile Photo" class="w-full h-full object-cover">
+          </div>
+          <div class="flip-face flip-back absolute w-full h-full backface-hidden rotate-y-180">
+            <img src="/images/designs/designpic.png" alt="Flower Photo" class="w-full h-full object-cover">
+          </div>
+        </div>
       </div>
     </div>
 
@@ -43,3 +50,16 @@ useSeoMeta({
   twitterCard: 'summary_large_image'
 })
 </script>
+
+<style scoped>
+.flip-container:hover .flip-inner {
+  transform: rotateY(180deg);
+}
+.backface-hidden {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+</style>
