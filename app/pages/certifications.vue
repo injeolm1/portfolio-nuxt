@@ -7,7 +7,7 @@
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
       <div class="card bg-white/40 backdrop-blur-md border border-white/30 shadow-xl rounded-2xl p-4">
         <figure class="rounded-xl overflow-hidden border border-pink-200 bg-white/50 p-2">
-          <img src="/images/certs/Pinalba_Python_Certificate.png" alt="Python Certification" class="w-full h-auto object-contain max-h-[180px]">
+          <img src="/images/certs/Pinalba_Python.png" alt="Python Certification" class="w-full h-auto object-contain max-h-[180px]">
         </figure>
         <div class="mt-3">
           <h2 class="text-sm font-bold text-[#3e5f4f]">Python Training Certification</h2>
@@ -16,7 +16,7 @@
 
       <div class="card bg-white/40 backdrop-blur-md border border-white/30 shadow-xl rounded-2xl p-4">
         <figure class="rounded-xl overflow-hidden border border-pink-200 bg-white/50 p-2">
-          <img src="/images/certs/Pinalba_Word_Certificate.png" alt="MS Word Certification" class="w-full h-auto object-contain max-h-[180px]">
+          <img src="/images/certs/Pinalba_Word.png" alt="MS Word Certification" class="w-full h-auto object-contain max-h-[180px]">
         </figure>
         <div class="mt-3">
           <h2 class="text-sm font-bold text-[#3e5f4f]">Microsoft Word Certification</h2>
