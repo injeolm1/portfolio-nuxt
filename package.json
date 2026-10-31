@@ -10,13 +10,14 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "lucide-vue-next": "latest",
     "nuxt": "^4.5.2",
+    "tailwindcss": "^4.3.3",
     "vue": "^3.5.42",
-    "vue-router": "^5.3.1",
-    "lucide-vue-next": "latest"
+    "vue-router": "^5.3.1"
   },
   "devDependencies": {
-    "@nuxtjs/tailwindcss": "latest",
-    "daisyui": "latest"
+    "daisyui": "^5.7.50"
   }
 }

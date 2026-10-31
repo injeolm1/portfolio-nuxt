@@ -1,16 +1,18 @@
+import tailwindcss from '@tailwindcss/vite'
+
 export default defineNuxtConfig({
   compatibilityDate: '2026-10-29',
   devtools: { enabled: true },
-  modules: ['@nuxtjs/tailwindcss'],
-  future: {
-    compatibilityVersion: 4,
+  css: ['~/assets/css/main.css'],
+  vite: {
+    plugins: [tailwindcss() as any],
   },
   app: {
     head: {
       link: [
-        { rel: 'preconnect', href: 'https://googleapis.com' },
-        { rel: 'preconnect', href: 'https://gstatic.com', crossorigin: '' },
-        { rel: 'stylesheet', href: 'https://googleapis.com/css2?family=Coiny&family=Gwendolyn:wght=700&display=swap' }
+        { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
+        { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
+        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Coiny&family=Gwendolyn:wght@700&display=swap' }
       ]
     }
   }
